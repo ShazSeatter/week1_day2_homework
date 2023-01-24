@@ -8,9 +8,13 @@ stops.append("Edinburgh Waverley")
 #2. Add "Glasgow Queen St" to the start of the list
 
 stops.insert(0, "Glasgow Queen St")
-print(stops)
+
 
 #3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
+
+stops.insert(4, "Polmont")
+print(stops)
+
 #4. Print out the index position of "Linlithgow"
 #5. Remove "Livingston" from the list using its name
 #6. Delete "Cumbernauld" from the list by index
