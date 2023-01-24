@@ -27,7 +27,7 @@ print(united_kingdom[1])
 
 northen_ireland = { 
   "name" : "North Ireland",
-  "population" : "1,811,000",
+  "population" : 1811000,
   "capital" : "Belfast"
 }
 
@@ -44,5 +44,13 @@ for country in united_kingdom:
   print(country["name"])
 
 
-
 # 4. Use a loop to find the total population of the UK.
+
+
+total_population = 0
+
+for population in united_kingdom:
+  total_population += population["population"]
+
+print(f"There are {total_population} people living in the united kingdom")
+
