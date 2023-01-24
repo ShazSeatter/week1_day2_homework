@@ -97,6 +97,18 @@ print(min(erik_lotto))
 # for num in even_num:
 #   if num % 2 == 0:
 
+even_lotto_num = []
+
+even_num = users["Avril"].get("lottery_numbers")
+
+for num in even_num:
+  if num % 2 ==0:
+    even_lotto_num.append(num)
+
+print(even_lotto_num)
+    
+
+
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 
 erik_lotto.append(7)
@@ -121,4 +133,5 @@ users["Erik"]["pets"].append(dog)
 print(users["Erik"]["pets"])
 
 # 10. Add another person to the users dictionary
+
 

@@ -4,8 +4,22 @@ numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
 
 # 1. Print out a list of the even integers:
 
+even_num = []
+for number in numbers:
+    if number % 2 == 0:
+        even_num.append(number)
+
+print(even_num)
 
 # 2. Print the difference between the largest and smallest value:
+
+sorted_list = sorted(numbers)
+
+print(sorted_list)
+
+difference = sorted_list[-1] - sorted_list[0]
+
+print(difference)
 
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
