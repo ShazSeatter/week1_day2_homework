@@ -49,7 +49,6 @@ for stop in stops:
     print(stop)
 
 
-
 # PythonMethods
 # https://docs.python.org/3/tutorial/datastructures.html
 # quiz
