@@ -109,9 +109,5 @@ users["Erik"]["home_town"] = "Edinburgh"
 
 print(users["Erik"]["home_town"])
 
-# meals["lunch"] = "fish & chips"
-# meals.get("lunch")
-
-
 # 9. Add a pet dog to Erik called "fluffy"
 # 10. Add another person to the users dictionary
