@@ -16,6 +16,11 @@ stops.insert(4, "Polmont")
 print(stops)
 
 #4. Print out the index position of "Linlithgow"
+
+index_of = stops.index("Linlithgow")
+print(index_of) 
+#  save this into a variable to be able to view it in print 
+
 #5. Remove "Livingston" from the list using its name
 #6. Delete "Cumbernauld" from the list by index
 #7. Print the number of stops there are in the list
