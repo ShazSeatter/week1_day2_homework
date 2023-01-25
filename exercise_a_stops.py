@@ -26,8 +26,8 @@ print(index_1)
 stops.remove("Livingston")
 
 #6. Delete "Cumbernauld" from the list by index
-
-stops.pop(2)
+index_to_remove = stops.index("Cumbernauld")
+stops.pop(index_to_remove)
 
 
 #7. Print the number of stops there are in the list
