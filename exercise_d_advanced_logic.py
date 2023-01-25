@@ -21,6 +21,10 @@ difference = sorted_list[-1] - sorted_list[0]
 
 print(difference)
 
+largest = max(numbers)
+smallest = min(numbers)
+
+print(largest - smallest)
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
    
