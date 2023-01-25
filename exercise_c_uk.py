@@ -35,7 +35,6 @@ united_kingdom.append(northen_ireland)
 
 print(united_kingdom)
 
-
 # 3. Use a loop to print the names of all the countries in the UK.
 
 #  use a loop to print all the countries, so taking name key and then printing its value 
@@ -46,11 +45,9 @@ for country in united_kingdom:
 
 # 4. Use a loop to find the total population of the UK.
 
-
 total_population = 0
 
 for population in united_kingdom:
   total_population += population["population"]
 
 print(f"There are {total_population} people living in the united kingdom")
-
