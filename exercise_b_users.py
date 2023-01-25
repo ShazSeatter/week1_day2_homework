@@ -64,7 +64,7 @@ print(users["Erik"]["home_town"])
 
 # 3. Get the list of Erik's lottery numbers
 
-print(users["Erik"].get("lottery_numbers"))
+print(users["Erik"]["lottery_numbers"])
 
 # -------------------------------------------------- 
 
@@ -77,7 +77,7 @@ print(users["Avril"]["pets"][0]["species"])
 # -------------------------------------------------- 
 # 5. Get the smallest of Erik's lottery numbers
 
-erik_lotto = users["Erik"].get("lottery_numbers")
+erik_lotto = users["Erik"]["lottery_numbers"]
 
 print(min(erik_lotto))
 
@@ -99,7 +99,7 @@ print(min(erik_lotto))
 
 even_lotto_num = []
 
-even_num = users["Avril"].get("lottery_numbers")
+even_num = users["Avril"]["lottery_numbers"]
 
 for num in even_num:
   if num % 2 ==0:
