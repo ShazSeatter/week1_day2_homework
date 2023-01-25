@@ -108,7 +108,6 @@ for num in even_num:
 print(even_lotto_num)
     
 
-
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 
 erik_lotto.append(7)
