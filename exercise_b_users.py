@@ -134,4 +134,10 @@ print(users["Erik"]["pets"])
 
 # 10. Add another person to the users dictionary
 
+users["shaz"] = { 
+    "twitter": "shazs",
+    "lottery_numbers": [8, 4, 8, 5, 26],
+    "home_town": "kuala lumpur"
+    }
 
+print(users)
