@@ -31,7 +31,7 @@ print(largest - smallest)
 result = False
 index = 0
 for number in numbers:
-    if (number == 2 and numbers[index-1] == 2):
+    if (index != 0 and number == 2 and numbers[index-1] == 2):
         result = True
     index += 1
 print(result)
@@ -41,7 +41,18 @@ print(result)
 #    
 #    So [11, 6, 4, 99, 7, 11] would have sum of 22
 
+total = 0
+found_6 = False
+for number in numbers:
+    if number == 6:
+        found_6 = True
+    elif found_6:
+        if number == 7:
+            found_6 = False
+    else:
+        total += number
 
+print(total)
 
 # 5. HARD! Print the sum of the numbers. 
 #    Except the number 13 is very unlucky, so it does not count.
