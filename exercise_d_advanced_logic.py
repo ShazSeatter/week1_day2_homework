@@ -28,7 +28,13 @@ print(largest - smallest)
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
    
-
+result = False
+index = 0
+for number in numbers:
+    if (number == 2 and numbers[index-1] == 2):
+        result = True
+    index += 1
+print(result)
 
 # 4. Print the sum of the numbers, 
 #    BUT ignore any section of numbers starting with a 6 and extending to the next 7.
