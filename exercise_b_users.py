@@ -136,7 +136,13 @@ print(users["Erik"]["pets"])
 users["shaz"] = { 
     "twitter": "shazs",
     "lottery_numbers": [8, 4, 8, 5, 26],
-    "home_town": "kuala lumpur"
+    "home_town": "kuala lumpur",
+    "pets": [
+      {
+        "name": "whiskers",
+        "species": "cat"
+      } 
+        ]
     }
 
 print(users)
